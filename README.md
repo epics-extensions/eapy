@@ -24,5 +24,5 @@ The corresponding examples demonstrates four major commands of the original EPIC
 * **EPICS V3**: http://www.aps.anl.gov/epics/
 * **XERCES-C**: http://xerces.apache.org/xerces-c/
 * **Swig**: http://www.swig.org/
-* **Boost**: 1.6.0
+* **Boost**: http://www.boost.org/
 
