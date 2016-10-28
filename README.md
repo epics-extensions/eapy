@@ -1,12 +1,6 @@
 # eapy
 
-The project provides the Python interface to the V4 data access layer of the EPICS archiver (https://github.com/epics-extensions/ea-cpp ). It is designed after the MongoDB API and extends it for hybrid data layers encompassing indexing services and repositories of data files. The new extension addresses several tasks:
-* replacement of the original XML-RPC interface with the efficient EPICS V4 protocol
-* generalization of the I/O library with a plugin mechanism for supporting new data drivers
-* transition to the MongoDB-based indexing service of the Channel Archiver
-* integration of historical control data and metadata stores of experimental facilities 
-
-The corresponding examples demonstrates four major commands of the original EPICS archiver:
+The project provides the Python interface to the V4 data access layer of the EPICS archiver (https://github.com/epics-extensions/ea-cpp ). It is designed after the MongoDB API and extends it for hybrid data layers encompassing indexing services and repositories of data files. The corresponding examples demonstrates four major commands of the original EPICS archiver:
 
 * **archiver info**: common information used in other service commands, such as enumerations of alarm statuses and severities, and lists of data pre-processing methods, such as spreadsheet, averaged, and others. 
 (https://github.com/epics-extensions/eapy/blob/master/examples/InfoQuery.ipynb)
