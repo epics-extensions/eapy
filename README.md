@@ -13,7 +13,7 @@ The corresponding examples demonstrates four major commands of the original EPIC
 
 * **archiver names**: a list of archiver names and paths to the index files used by this data service (https://github.com/epics-extensions/eapy/blob/master/examples/ArchivesQuery.ipynb)
 
-* **channel names**: a list of channels matched to the input pattern. The result of the corresponding call contains channels names with associated time ranges (https://github.com/epics-extensions/eapy/blob/master/examples/PVsQuery.ipynb)
+* **channel names**: a list  of channels matched to the input pattern. The result of the corresponding call contains channels names with associated time ranges (https://github.com/epics-extensions/eapy/blob/master/examples/PVsQuery.ipynb)
 
 * **channel values**: data of selected channels. This command relies on a special container, a PVData dynamic structure of self-described members (https://github.com/epics-extensions/eapy/blob/master/examples/TimeSeries.ipynb)
 
